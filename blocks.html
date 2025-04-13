@@ -1,0 +1,186 @@
+<html>
+    <head>
+        <title>bootstrap_Practice03_class7</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap_practice03.css" type = text/css>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class = "navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle ="collapse" data-target="#myNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>   
+                    <a class="navbar-brand" href="#">A Cooklet</a>
+                </div>
+                <div id = "myNav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a> </li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-user"></span>
+                                signup
+                            </a>                            
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-log-in"></span>
+                                login
+                            </a>                            
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+        </nav>
+        
+
+        <div class = "container">
+            <div class = "Jumbotron">
+                <h1>Bootstrap</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <a href="#">more..</a>
+                <button class = "btn btn-success">click</button>
+                <button class = "btn btn-info">click</button>
+                <button class = "btn btn-primary">click</button>
+                <button class = "btn btn-danger">click</button>
+                <button class = "btn btn-warning">click</button>
+                <button class = "btn btn-info myOwn">click</button>
+            </div>
+        </div>
+
+        <hr>
+        <span class = "glyphicon glyphicon-ok"></span> &nbsp; &nbsp;
+        <span class = "glyphicon glyphicon-edit" class = "edit"></span> &nbsp; &nbsp;
+        <span class = "glyphicon glyphicon-trash"  class = "delete"></span> &nbsp; &nbsp;
+        <span class = "glyphicon glyphicon-headphones"></span> &nbsp; &nbsp;
+        <span class = "glyphicon glyphicon-refresh"></span> &nbsp; &nbsp;
+        <span class = "glyphicon glyphicon-lock"></span> &nbsp; &nbsp;
+        <span class = "glyphicon glyphicon-tag"></span> &nbsp; &nbsp;
+        <span class = "glyphicon glyphicon-signal"></span> &nbsp; &nbsp;
+        <hr>
+
+        <div id="divCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#divCarousel" data-slide-to="0" class ="active"></li>
+                <li data-target="#divCarousel" data-slide-to="1" class ="active"></li>
+                <li data-target="#divCarousel" data-slide-to="2" class ="active"></li>
+                
+            </ol>
+            <div class = "carousel-inner">
+                <div class="item active">
+                    <img src="C:\Users\vikya\OneDrive\Attachments\webdevptraining\n1.jpeg" class="sliderimage">
+                </div>
+                <div class="item">
+                    <img src="C:\Users\vikya\OneDrive\Attachments\webdevptraining\n2.jpeg" class="sliderimage">
+                </div>
+                <div class="item">
+                    <img src="C:\Users\vikya\OneDrive\Attachments\webdevptraining\n3.jpeg" class="sliderimage">
+                </div>
+                
+            </div>
+
+            <a class="left carousel-control" href="#divCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#divCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <div class="row">
+            <div id="use_of_offset" class="col-lg-2 col-lg-offset-3">
+                <br><br><br><br><br><h1>Prasunamba</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id = "first" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+            <div id = "second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+            <div id = "third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-lg-offset-1"></div> 
+            <div id = "fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+            <div id = "fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div> 
+            <div id = "sixth" class="col-lg-2 col-md-2 col-sm-4 col-xs-6"></div>
+            <div id = "seventh" class="col-lg-2 col-md-2 col-sm-4 col-xs-6"></div>
+        </div>
+
+        <div class = "panel panel-primary">
+            <div class = "panel-heading">
+                Students
+            </div>
+            <div class = "panel-body">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>S_no</th>
+                            <th>c_id</th>
+                            <th>c_name</th>
+                            <th>c_price</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>101</td>
+                            <td>html</td>
+                            <td>Rs. 100</td>
+                            <td>
+                                <span class = "glyphicon glyphicon-ok"></span>
+                                &nbsp; &nbsp;
+                                <span class = "glyphicon glyphicon-edit"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>102</td>
+                            <td>css</td>
+                            <td>Rs. 110</td>
+                            <td>
+                                <span class = "glyphicon glyphicon-trash"></span>
+                                &nbsp; &nbsp;
+                                <span class = "glyphicon glyphicon-headphones"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>103</td>
+                            <td>bootstrap</td>
+                            <td>Rs. 120</td>
+                            <td>
+                                <span class = "glyphicon glyphicon-refresh"></span>
+                                &nbsp; &nbsp;
+                                <span class = "glyphicon glyphicon-lock"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>104</td>
+                            <td>javascript</td>
+                            <td>Rs. 130</td>
+                            <td>
+                                <span class = "glyphicon glyphicon-tag"></span>
+                                &nbsp; &nbsp;
+                                <span class = "glyphicon glyphicon-signal"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
