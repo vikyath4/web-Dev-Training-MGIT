@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>MY PROFILE</title>
+	<title>bootstrap_Practice01_class6</title>
+
+        <!-- Latest compiled and minified CSS -->
+         <title>bootstrap_Practice01_class6</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="C:\Users\vikya\OneDrive\Attachments\webdevptraining\style.css">
+
+
+
+    <div style="background-color: #f0f0f0; padding: 20px; border-bottom: 2px solid #ccc;">
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    
+    <!-- Left side: Name and Qualification -->
+    <div style="flex-grow: 1;">
+      <h1 style="margin: 0; font-size: 28px;">Vikyath Reddy</h1>
+      <p style="margin: 5px 0; font-size: 18px;">B.Tech in Electronics and Communication Engineering</p>
+    </div>
+
+    <!-- Right side: Contact Info -->
+    <div style="text-align: right;">
+      <p style="margin: 5px 0;"><strong>Phone:</strong> +91-7386401105</p>
+      <p style="margin: 5px 0;"><strong>Email:</strong> vikyathreddypuli04@gmail.com</p>
+    </div>
+
+
+</head>
+<body>
+
+
+  </div>
+</div>
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#profile photo">photo</a>
+        <a href="#linkedin">linkedin</a>
+        <a href="#hackerrank">hackerrank</a>
+        <a href="#codecheif">codecheif</a>
+    </div>
+    
+
+
+	<title>vikyath's profile</title>
+	<link href="C:\Users\vikya\OneDrive\Attachments\webdevptraining\logo.jpeg" rel="icon"/>
+	
+	<meta name = "viewport" content = "width=device-width, initial-scale =1 ">
+        <style>
+            body {
+                padding : 25px;
+                background-color :white;
+                color :black;
+                font-size : 20px;
+            }
+            .dark-mode {
+                background-color:black;
+                color:white;
+            }
+        </style>
+  
+	
+</head>
+<body>
+	
+        <button onclick="myFunction()">Toggle dark mode</button>
+        <script>
+            function myFunction() {
+                var element =  document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+
+	<h1>About me:</h1>
+	<p>  Passionate Electronics and Communication Engineering student with a strong foundation in signal processing,  embedded systems. Enthusiastic about applying theoretical knowledge to<span style="color:red"> real-world projects</span>, including digital signal analysis and automation. Experienced in MATLAB, Python, and hardware verification, with a keen interest in IoT and AI-driven solutions. Eager to contribute innovative ideas and technical expertise to challenging engineering problems.</p>
+
+<div>
+  <h1>Education</h1>
+  <div>
+    <table style="border-collapse: collapse; width: 92%;">
+      <thead>
+        <tr>
+          <th style="border: 1px solid black; padding: 10px; text-align: center;">S.NO</th>
+          <th style="border: 1px solid black; padding: 10px; text-align: center;">INSTITUTION</th>
+          <th style="border: 1px solid black; padding: 10px; text-align: center;">GRADE</th>
+          <th style="border: 1px solid black; padding: 10px; text-align: center;">YEAR</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid black; padding: 10px; text-align: center;">1</td>
+          <td style="border: 1px solid black; padding: 10px;">MAHATMA GANDHI INSTITUTE OF TECHNOLOGY</td>
+          <td style="border: 1px solid black; padding: 10px; text-align: center;">8.4</td>
+          <td style="border: 1px solid black; padding: 10px; text-align: center;">2022-2026</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 10px; text-align: center;">2</td>
+          <td style="border: 1px solid black; padding: 10px;">Sri Chaitanya JUNIOR COLLEGE</td>
+          <td style="border: 1px solid black; padding: 10px; text-align: center;">9.3</td>
+          <td style="border: 1px solid black; padding: 10px; text-align: center;">2020-2022</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 10px; text-align: center;">3</td>
+          <td style="border: 1px solid black; padding: 10px;">Narayana Concept School</td>
+          <td style="border: 1px solid black; padding: 10px; text-align: center;">10</td>
+          <td style="border: 1px solid black; padding: 10px; text-align: center;">2020</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br/>
+</div>
+
+	
+	<div> 
+		<h1>Projects</h1> 
+		<div> 
+			<ul type="circle">
+            <li>Soil Moisture Sensing</li>
+            <li>Traffic light system using FGPA</li>
+            <li>Home Automations</li>
+        </ul>
+    </div>
+  </div>
+
+	  
+
+	<div>
+	  <h1>Skills</h1> 
+	  <div>
+	  	<div class = "container">
+	  		<div class = "jumbotron">
+		      <ul type="circle">
+			      
+			      <li>VHDL</li>
+			      <li>java</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>python</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	  
+	<div>  
+       <h1>Hobbies</h1>
+       <div> 
+       	<ul type="circle">
+			<li>listening podcast</li>
+			<li>Playing batmenton</li>
+            <li>Cooking</li>
+            <li>Talking to family</li>
+       
+        </ul>
+      </div>
+  </div>
+
+
+	
+</body>
+<footer>
+		<center>
+			<h3> @copy vikyath's profile &hearts; </h3>
+		</center>
+	</footer>
+
+</html>
